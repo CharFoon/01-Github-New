@@ -1,105 +1,132 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 /* Header Styles */
 .header {
-  background-image: url(../images/upsBackground.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-height: 500px;
-  height: 250px;
-  background-position: bottom;
-}
+    height: 250px;
+    max-height: 500px;
+    background-image: url(../images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom
+    }
+
 #pageTopic {
-  text-align: center;
-}
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    }
+
 /* Primary Color */
 .colorContainer {
-  display: inline-block;
-  margin: 15px;
+    display: inline-block;
+    margin: 20px;
 }
+
+.typography h2 {
+font-size: 26px;
+margin-bottom: 15px;
+margin-top: 0;
+}
+
+.light {
+    font-weight: 100;
+}
+
 .swatch {
-   height: 200px;
-   width: 170px;
-   border: 1px solid black;
-}
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+    }
+
 .hexCode {
-   padding: 15px;
-   text-align: center;
-   border: 1px solid black;
-   border-top: none;
-   border-bottom-left-radius: 7px;
-   border-bottom-right-radius: 7px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius; 7px;
+    border-bottom-right-radius; 7px;
 }
-.darkBlue {
-  background-color: #333366;
+
+.darkblue {
+    background-color: 333366;
 }
+
 .darkGrey {
-  background-color: #545454;
+    background-color: 545454;
 }
+
 .lightGrey {
-  background-color: #E3E3E3;
+    background-color: E3E3E3;
 }
+
 .white {
-  background-color: #FFFFFF;
+    background-color: FFFFFF;
 }
+
 .lightBlue {
-  background-color: #12A0F6;
+    background-color: 13A0F6;
 }
+
 .red {
-  background-color: #F84848;
+    background-color: F84848;
 }
+
 .orange {
-  background-color: #FC7705;
+    background-color: FC7705;
 }
+
 .lightBlue {
-  background-color: #13A0F6;
+    background-color: 13A0F6;
 }
+
 .lightGreen {
-  background-color: #8ABE48;
+    background-color: 8ABE48;
 }
 /* Typography CSS */
 .type_container {
-   display: inline-block;
-   margin: 20px;
+    display: inline-block;
+    margin: 20px;
+    }
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    text-align: center;
+    color: white;
 }
 
-/* UI Elements */
-.button {
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
-   width: 150px;
-   text-align: center;
-   color: white;
-}
 .primary {
-  background-color: #2B459A;
+    background-color: 2B459A;
 }
 .success {
-  background-color: #8ABE48;
+    background-color: 8ABE48;
 }
 .danger {
-  background-color: #F84848;
+    background-color: F84848;
 }
 .warning {
-  background-color: #FC7705;
+    background-color: FC7705;
 }
 .info {
-  background-color: #0099FA;
+    background-color: 0099FA;
 }
 .primaryActive {
-  background-color: #3A66B7;
+    background-color: 3A66B7;
 }
 .successActive {
-  background-color: #668C35;
+    background-color: 668C35;
 }
 .dangerActive {
-  background-color: #AD4848;
+    background-color: AD4848;
 }
 .warningActive {
-  background-color: #BA7A43;
+    background-color: BA7A43;
 }
 .infoActive {
-  background-color: #4386BA;
+    background-color: 4386BA;
 }
-.sectionHead {
-  border-bottom: 8px solid #DDDDDD;
-}
+
