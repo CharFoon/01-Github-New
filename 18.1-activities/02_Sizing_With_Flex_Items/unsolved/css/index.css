@@ -31,6 +31,10 @@ It is highly recommended to try out these commands in chromes web inspector to s
   - flex-end
   - flex-start
   */
+  align-items: center;
+  background-color: blueviolet;
+  border-color: coral;
+  stroke-width: 2px;
 
 }
 .justifyContent {
@@ -44,7 +48,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 - space-around
 - space-evenly
 */
-
+justify-content: space-around;
 }
 .perfectlyCentered {
 /*
