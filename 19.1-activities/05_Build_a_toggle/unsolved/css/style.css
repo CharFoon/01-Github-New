@@ -1,1 +1,30 @@
 /* Style your dropdown below! */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+img {
+    width: 18px;
+}
+
+#toggle {
+    background-color: salmon;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    padding: 15px;
+    background-color: rgb(252, 217, 244);
+    cursor: pointer;
+
+}
